@@ -1,0 +1,128 @@
+h1,h2,ul,ol,li{
+    margin:0;
+    padding:0;
+}
+
+ ul, ol{
+    list-style-type: none;
+}
+
+ul{	
+	margin: auto;
+}
+
+section div{	
+	border: #FFDE7B dotted 2px;
+	padding: 1em;
+	margin: 1em;	
+}
+	
+header {
+	margin: auto;
+	width: 500px;
+	height: 150px;
+	background: url(images/portal.jpg);
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+
+header div {
+    position: absolute;
+    top:300px;
+    left:0;      
+    text-align: center;
+    width: 1020px;
+    height: 100px;
+    padding: 50px ;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;    
+    transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); /* easeOutExpo */
+}
+
+body{
+	background: url(images/email-pattern.png);
+	font-family :'Varela Round', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    color: #564E4B;
+    padding: 15px;
+}
+footer{
+	color:white;
+	line-height: .5em;
+	font-size: 15px;
+	padding:10px;
+	background-color: #c1c8c6;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+footer a{
+	color:white;
+    text-decoration: none;
+
+}
+
+/** when hovered over lists = yellow backlight and font gets darker **/
+ul li a:hover {
+    letter-spacing: 1.5px;
+    transition: all 100ms cubic-bezier(0.76, 0.1, 0.175, 1.000);
+    background-color: #FFE5AA;
+    color: #1a1a1a;
+}
+
+footer:hover{
+	background-color:#FFF1C9;
+	color:black;
+}
+
+footer a:hover{
+	color:black;
+}
+
+header:hover div{
+	top:150px;
+}
+
+@media only screen and (min-width: 600px) {
+header{font-size:30px;}
+nav ul li a {font-size: 15px;
+	color:white;
+}
+
+footer {
+	width:1000px;
+	margin:auto;
+	display: block;
+	flex-direction: row;
+	padding:10px;
+	width: 74%;
+}
+
+section{
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+	margin:auto;
+	width: 74%;
+	}
+section div{
+	flex:1;
+}
+
+header {
+	width: 1020px;
+	height: 300px;
+}
+
+nav ul {
+	display: flex;
+}
+}
+		
+
+	
