@@ -1,0 +1,44 @@
+h1,h2{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+	height: auto;	
+}
+body{
+    background-color: beige;
+}
+section{
+    background-color:#FFB58D;
+	margin: auto;
+	width: 60%;	
+	padding: 20px;	
+    
+}
+footer p{
+    text-align: center;
+}
+footer{
+    margin:auto;
+	color:white;
+	line-height: .5em;
+	font-size: 15px;
+	padding:10px;
+	background-color: #c1c8c6;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+footer a{
+	color:white;
+    text-decoration: none;
+
+}
+footer:hover{
+	background-color:#FFF1C9;
+	color:black;
+}
+
+footer a:hover{
+	color:black;
+}
