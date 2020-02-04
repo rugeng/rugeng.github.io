@@ -42,11 +42,9 @@
  		if(parseInt(formMiles)){
   		var kilometer = formMiles * 1.609344;
 			  var km3 = kilometer.toFixed(3);
-			  document.getElementsByClassName("invisible")[0].style.color = "#2980B9";
 			  document.getElementsByClassName("invisible")[0].innerHTML = `${formMiles} miles convert to ${km3} kilometers`;
  		}
 		  else {
-			  document.getElementsByClassName("invisible")[0].style.color = "#2980B9";
 			  document.getElementsByClassName("invisible")[0].innerHTML = "Please enter a number.";
  		}		
 	 	});
