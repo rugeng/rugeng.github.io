@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-    fill(random);
+    fill(random(0,255),random(0,255),random(0,255));
     var brushSize = 20;
     if (mouseIsPressed) {
     rect(mouseX, mouseY, brushSize, brushSize);
@@ -18,6 +18,6 @@ function draw() {
 }
 function mousePressed() {
     background(random(200, 255));
-    fill(0, 100, 100, 64);
+    fill(random(0,255),random(0,255),random(0,255));
     ellipse(mouseX, mouseY, brushSize*2, brushSize*2);
 }
