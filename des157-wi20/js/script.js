@@ -19,5 +19,5 @@ function draw() {
 function mousePressed() {
     background(random(200, 255));
     fill(random(0,255),random(0,255),random(0,255));
-    ellipse(mouseX, mouseY, brushSize*2, brushSize*2);
+    ellipse(mouseX, mouseY, 30, 30);
 }
