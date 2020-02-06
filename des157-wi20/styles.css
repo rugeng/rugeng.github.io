@@ -11,6 +11,10 @@ ul{
     margin: auto;
     
 }
+#mySketch{
+	size:800px*250px;
+}
+
 
 section div{	
 	border: #FFDE7B dotted 2px;
@@ -27,7 +31,7 @@ header {
 }
 
 body{
-	background: url(images/email-pattern.png);
+
 	font-family: 'Noto Sans TC', sans-serif;
 }
 
