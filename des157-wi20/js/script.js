@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-    fill(0, 0, 100, 64);
+    fill(random);
     var brushSize = 20;
     if (mouseIsPressed) {
     rect(mouseX, mouseY, brushSize, brushSize);
