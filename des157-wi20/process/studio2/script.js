@@ -4,14 +4,14 @@
 
     var phone = document.querySelector('#phone');
     var laptop = document.querySelector('#laptop');
-    var headphones = document.querySelector('#headphones');
+    var sketchbook = document.querySelector('#sketchbook');
 
     var phoneoverlay = document.querySelector('#phoneoverlay');
     var phoneclose = document.querySelector('#phoneclose');
     var laptopoverlay = document.querySelector('#laptopoverlay');
     var laptopclose = document.querySelector('#laptopclose');
-    var headphonesoverlay = document.querySelector('#headphonesoverlay');
-    var headphonesclose = document.querySelector('#headphonesclose');
+    var sketchbookoverlay = document.querySelector('#sketchbookoverlay');
+    var sketchbookclose = document.querySelector('#sketchbookclose');
 
     phone.addEventListener('click', function () {
         phoneoverlay.style.display='block';
@@ -27,10 +27,10 @@
         laptopoverlay.style.display = 'none';
     })
 
-    headphones.addEventListener('click', function () {
-        headphonesoverlay.style.display='block';
+    sketchbook.addEventListener('click', function () {
+        sketchbookoverlay.style.display='block';
     })
-    headphonesclose.addEventListener('click', function (){
-        headphonesoverlay.style.display = 'none';
+    sketchbookclose.addEventListener('click', function (){
+        sketchbookoverlay.style.display = 'none';
     })
 }());
