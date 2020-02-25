@@ -5,10 +5,20 @@ img{
     max-width: 100%;
 	height: auto;	
 }
+body{
+	background-color: bisque;
+}
 section{
 
 	margin: auto;
 	width: 50%;	
 	padding: 10px;	
     
+}
+a{
+	text-decoration: none;
+	color:orange;
+}
+a:hover{
+	color:cornflowerblue;
 }
