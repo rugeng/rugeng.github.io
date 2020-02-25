@@ -1,6 +1,7 @@
 
 h1,h2{
     text-align: center;
+    font-size: 40px;
     font-family: 'Monoton' ;
 }
 p{
@@ -14,6 +15,40 @@ body{
     width:65%;
     font-family: 'Tajawal' ;
 }
+
+.card{
+    border-radius: 50px;
+    margin:auto;
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    background: orange;  
+    text-align: center;
+    font-family: 'Press Start 2P';
+    text-overflow: initial;
+    padding-top: 10em;  
+}
+.card p{
+    text-overflow: initial;
+}
+.gamerules{
+    width:100%;
+}
+
+.gamerules p{
+    text-align: center;
+    font-size: 1.2em; 
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.gamerules h2{
+    text-align: center;   
+    font-size: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+} 
 #startgame, #roll, #quit{
     color:pink;
     margin:auto;

@@ -1,3 +1,28 @@
+function start() {
+    var main = document.getElementsByClassName("maincontainer");
+    for(var i = 0; i < main.length; i++){
+        main[i].style.display = "none";
+    }
+    var title = document.getElementsByTagName("h1");
+    for(var i = 0; i < title.length; i++){
+        title[i].style.display = "none";
+    }
+}
+
+function startGame() {
+    var gameRules = document.getElementsByClassName("gameRules");
+    for(var i = 0; i < gameRules.length; i++){
+        gameRules[i].style.display = "none";
+    }
+    var game = document.getElementsByClassName("game");
+    for(var i = 0; i < game.length; i++){
+        game[i].style.display = "block";
+    }
+}
+
+
+
+
 (function(){
     'use strict'
     const startGame = document.getElementById("startgame");
@@ -7,7 +32,7 @@
     const actionArea = document.getElementById("actions");
         
     const gameData = {
-        dice: ["1die.jpg", "2die.jpg", "3die.jpg", "4die.jpg", "5die.jpg","6die.jpg"],
+        dice: ["images/1die.jpg", "images/2die.jpg", "images/3die.jpg", "images/4die.jpg", "images/5die.jpg","images/6die.jpg"],
         players:["player 1","player 2"],
         score: [0,0],
         roll1: 0,
