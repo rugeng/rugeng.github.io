@@ -1,0 +1,90 @@
+
+h1,h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Monoton' ;
+}
+p{
+    text-align: center;
+}
+body{
+    text-align: center;
+    padding: 2em;
+    background-color: rgb(255, 198, 128);
+    margin:auto;
+    width:65%;
+    font-family: 'Tajawal' ;
+}
+
+.card{
+    
+    margin:auto;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background:  rgb(255, 198, 128);  
+    text-align: center;
+    font-family: 'Press Start 2P';
+    text-overflow: initial;
+    padding-top: 10em;  
+}
+.card p{
+    text-overflow: initial;
+}
+.gameRules{
+    width:100%;
+    background-color:rgb(221, 159, 109);
+}
+
+.gameRules p{
+    text-align: left;
+    font-size: 1.2em; 
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+#arrow{
+  float: right;
+ 
+}
+
+.gameRules h2{
+    font-family: 'Monoton' ;
+    text-align: center;   
+    font-size: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+} 
+#startgame, #roll, #quit{
+    color:pink;
+    margin:auto;
+    display:block;
+    background-color:  chocolate;
+    font-size: 22px;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-family: 'Tajawal' ;
+}
+#pass, #rollagain{
+    text-align: center;
+    color:pink;
+    margin:auto;
+
+    background-color:  chocolate;
+    font-size: 22px;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-family: 'Tajawal' ;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-line:underline;
+}
+footer{
+    padding-top: 10em;
+    text-align: center;
+}
