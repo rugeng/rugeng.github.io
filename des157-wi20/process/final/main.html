@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">   
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Khula|Tenor+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <nav>
+        <ul id="navi">
+            <li><a>coronavirus</a></li>
+        </ul>
+        <ul>    
+                           
+            <li>
+                <a href="main.html">Home</a>
+            </li>
+            <li>
+                <a href="#page1">News</a>
+            </li>
+            <li>
+                <a href="#page2">Updates</a>
+            </li>
+            <li>
+                <a href="#page3">Sign Up</a> 
+            </li>
+            <li>
+                <a href="#">More</a>
+            </li>
+            <li class="social">    
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>   
+            </li>
+        </ul>  
+    </nav>    
+<scroll-container>      
+    <section>
+        <scroll-page id="page1">
+            <div id="slider-wrapper">
+                <ul>
+                    <li>
+                        <div class="content">
+                            <h2>Coronavirus disease (COVID-19) advice for the public</h2>
+                            <p>
+                                Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. COVID-19 is still affecting mostly people in China with some outbreaks in other countries.  <a href= "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">Read More</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h2>Slide Title</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Eius modi et cumque quibusdam tempore earum
+                                est, placeat facere non vero culpa inventore vitae!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h2>Coronavirus Updates: 9 Dead in Seattle Area. In N.Y., Hospital Staff May Have Been Exposed.</h2>
+                            <p>
+                                President Trump is weighing more restrictions on travelers arriving from other countries. Abroad, cases and deaths in Italy and Iran rose sharply.<a href="https://www.nytimes.com/2020/03/03/world/coronavirus-news.html"> Read More</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h2>Slide Title</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Eius modi et cumque quibusdam tempore earum
+                                est, placeat facere non vero culpa inventore vitae!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h2>Slide Title</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Eius modi et cumque quibusdam tempore earum
+                                est, placeat facere non vero culpa inventore vitae!
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div id="slider-controls">
+                    <a href="#" id="prev" class="arrow-left"></a>
+                    <a href="#" id="next" class="arrow-right"></a>
+                </div>
+            </div>    
+        </scroll-page>
+    </section>
+
+ 
+    <section>
+        <scroll-page id="page2">
+		<ul id="team">
+			<li class="selected">
+                <h1>Live Coronavirus Updates</h1>
+				<img src="images/maps.png" alt="photo">
+				<div class="info-bubble">
+					<div class="info-pointer"></div>
+					<div class="team-member-info">
+						<h2>Updates</h2>
+                        <p>Total population:1.386 billion</p>
+                        <p>Cases: 14876</p>
+                        <p>Severe: 4257</p>
+                        <p>Suspected: 253</p>
+                        <p>Deaths: 3173</p>
+                        <p>Recovered: 62933</p>
+                        <p>Total Cases: 80982</p>
+					</div>
+				</div>
+			</li>
+
+		</ul>
+    </scroll-page>
+    </section>
+     
+    <form action="/action_page.php"  class="signup">
+    <scroll-page id="page3">
+        <div class="contain">
+            <h2>Sign Up</h2>
+            <p>Please fill in this form to create an account so you can update your status.</p>
+            <hr>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="id"><b>ID number</b></label>
+            <input type="text" placeholder="Enter ID number" name="IDn" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+            
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </scroll-page>
+    </form>
+    
+    <form class="support">
+        <h2>Help them, supporting them!</h2>
+        <input type="text" placeholder=" Show your support!" id="verbs">
+        <input type="button" class="donate" value="SUBMIT">
+    </form>   
+</scroll-container> 
+<script src="script.js"></script>
+<footer>
+    <section class="service">
+        <div>
+            <ul>
+                <li><P>Have question?</P></li>
+                <li><p>Visit CDC-INFO</p></li>
+                <li><P>Call 415-666-6666</P></li>
+                <li><P>Email</P></li>
+                <li><P>Open 24/7</P></li>        
+            </ul>
+        </div>
+    
+        <div>
+            <ul>
+                <li><p><a>@2020 by RU GENG</a></p></li>
+                <li><p><a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a></p></li>
+            </ul>
+         </div>
+    
+        <div>
+            <ul>
+                <li><P>Privacy</P></li>
+                <li><P>Accessibility</P></li>
+            </ul>
+        </div>
+    </section>
+    
+</footer>
+</body>
+</html>
